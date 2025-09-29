@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "modelInfo": {
+    "xAI": {
+      "grok-code-fast-1": {
+        "name": "Grok Code Fast 1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 120000,
+        "maxOutputTokens": 120000
+      },
+      "grok-4-0709": {
+        "name": "Grok 4",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 120000,
+        "maxOutputTokens": 120000
+      },
+      "grok-4-fast-reasoning": {
+        "name": "Grok 4 Fast Reasoning",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": true,
+        "maxInputTokens": 120000,
+        "maxOutputTokens": 120000
+      },
+      "grok-4-fast-non-reasoning": {
+        "name": "Grok 4 Fast Non-Reasoning",
+        "toolCalling": true,
+        "vision": true,
+        "thinking": false,
+        "maxInputTokens": 120000,
+        "maxOutputTokens": 120000
+      }
+    },
+    "Gemini": {
+      "models/gemini-2.5-pro": {
+        "name": "Gemini 2.5 Pro",
+        "vision": true,
+        "toolCalling": true,
+        "maxInputTokens": 819600,
+        "maxOutputTokens": 65536
+      },
+      "models/gemini-2.5-flash": {
+        "name": "Gemini 2.5 Flash Preview",
+        "vision": true,
+        "toolCalling": true,
+        "maxInputTokens": 819600,
+        "maxOutputTokens": 65536
+      }
+    }
+  }
+}
