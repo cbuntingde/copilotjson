@@ -48,6 +48,51 @@
         "maxInputTokens": 819600,
         "maxOutputTokens": 65536
       }
-    }
+    },
+"Chutes": {
+  "moonshotai/Kimi-K2-Instruct-0905": {
+    "name": "MoonshotAI Kimi-K2 Instruct 0905",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  },
+  "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8": {
+    "name": "Qwen3 Coder 480B A35B Instruct FP8",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  },
+  "zai-org/GLM-4.5-FP8": {
+    "name": "ZAI GLM 4.5 FP8",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  },
+  "deepseek-ai/DeepSeek-V3.1": {
+    "name": "DeepSeek V3.1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  },
+  "openai/gpt-oss-120b": {
+    "name": "OpenAI GPT OSS 120B",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  },
+  "Qwen/Qwen3-VL-235B-A22B-Thinking": {
+    "name": "Qwen3 VL 235B A22B Thinking",
+    "toolCalling": true,
+    "vision": true,
+    "thinking": true,
+    "maxInputTokens": 128000,
+    "maxOutputTokens": 4096
+  }
+}
   }
 }
